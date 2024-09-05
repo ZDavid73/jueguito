@@ -1,0 +1,37 @@
+/* Estilos generales para el contenedor de jugadores */
+.player {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* Estilo para el nombre del jugador */
+.player strong {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo para las estrellas */
+.star {
+    font-size: 24px;
+    color: gold;
+    visibility: hidden; /* Todas las estrellas están ocultas al inicio */
+}
+
+/* Estilo del botón */
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
